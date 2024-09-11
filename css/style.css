@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    
+
 }
 
 .navbar {
@@ -11,17 +11,18 @@ body {
     background-color: #009c6057;
 }
 
-.textnavbart{
+.textnavbart {
     font-size: 35px;
     font-weight: bold;
     color: #e1ffd5;
 }
 
-.textnavbar{
+.textnavbar {
     font-size: 20px;
     color: #e1ffd5;
 }
-.navbarbutton{
+
+.navbarbutton {
     color: #e1ffd5;
 }
 
@@ -47,13 +48,13 @@ body {
     background-size: cover;
 }
 
-.start-text{
+.start-text {
     font-size: 50px;
     color: #f8f9fa;
 }
 
 .chat-messages {
-    display: none; 
+    display: none;
     flex: 1;
 }
 
@@ -85,10 +86,10 @@ body {
     flex-direction: column;
 }
 
-.contact-name{
+.contact-name {
     font-size: 20px;
     font-weight: bold;
-    color:#3b5f53;
+    color: #3b5f53;
 }
 
 .contact-item--img {
@@ -122,26 +123,27 @@ body {
     background-color: #356648be;
     color: white;
     padding: 15px;
-    text-align: left; 
-    display: flex; 
-    align-items: center; 
+    text-align: left;
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #ccc;
     font-size: 2rem;
     font-weight: bold;
 }
+
 .chat-header--img {
-    width: 40px; 
+    width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px; 
+    margin-right: 10px;
     background-color: #9cc49a;
 }
 
 #contactName {
-    font-size: 1.9rem; 
+    font-size: 1.9rem;
 }
 
-.last-message-bold{
+.last-message-bold {
     font-weight: bold;
 }
 
@@ -245,7 +247,7 @@ footer {
 }
 
 .contact-list {
-    display: block; 
+    display: block;
 }
 
 .contact-list.show {
@@ -254,27 +256,65 @@ footer {
 
 
 .collapse-button {
-    display: none; 
+    display: none;
 }
 
-@keyframes footerimg{
-    0%{
+@keyframes footerimg {
+    0% {
         right: 160px;
     }
-    25%{
+
+    25% {
         right: 260px;
     }
 
-    50%{
+    50% {
         right: 360px;
     }
 
-    75%{
+    75% {
         right: 460px;
     }
 
-    100%{
+    100% {
         right: 560px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        width: 26rem;
+        padding: 20px;
+    }
+
+    .navabr2 {
+        width: 24rem;
+    }
+
+    .contact-item {
+        width: 24rem;
+    }
+
+    .chat-contact {
+        width: 24rem;
+
+    }
+
+    .chat-messages{
+        padding: 10px;
+
+    }
+
+    .contact {
+        width: 24rem;
+    }
+
+    .textnavbart{
+        font-size: 25px;
+        padding: 0;
+    }
+    .footer-item--img {
+        left: 0px;
     }
 }
 
@@ -282,29 +322,30 @@ footer {
 
 @media (max-width: 768px) {
     .contact-list {
-        display: none; 
+        display: none;
     }
-    
+
     .collapse-button {
-        display: block; 
+        display: block;
     }
-     
-    .contact{
+
+    .contact {
         background-color: #ffffff59;
         display: grid;
         grid-template-columns: 32.3rem;
-        size: 10px ;
+        size: 10px;
     }
 
     .chat-contact {
-        display: grid; 
+        display: grid;
         grid-template-rows: max-content;
     }
-    .container{
-         height: 80rem;
+
+    .container {
+        height: 80rem;
     }
 
-    .navabr2{
+    .navabr2 {
         display: grid;
         grid-template-columns: 90% 100px;
     }
@@ -315,20 +356,14 @@ footer {
         width: 30%;
         animation: footerimg 4s linear infinite;
     }
-    
+
     .start-screen {
         background-size: 66rem;
         background-position: center;
     }
 
-    .start-text{
+    .start-text {
         font-size: 40px;
         color: #f8f9fa;
     }
-    
-    
 }
-
-
-
-
