@@ -283,7 +283,7 @@ footer {
 
 @media (max-width: 576px) {
     .navbar {
-        width: 26rem;
+        width: 28rem;
         padding: 20px;
     }
 
@@ -303,6 +303,10 @@ footer {
     .chat-messages{
         padding: 10px;
 
+    }
+    
+    .container{
+        width: 26rem;
     }
 
     .contact {
