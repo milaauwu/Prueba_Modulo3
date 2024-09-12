@@ -284,20 +284,19 @@ footer {
 @media (max-width: 576px) {
     
      .navbar {
-        padding: 0;
         width: 35rem;
       }
 
     .navabr2 {
-        width: 24rem;
+        width: 30rem;
     }
 
     .contact-item {
-        width: 24rem;
+        width: 30rem;
     }
 
     .chat-contact {
-        width: 24rem;
+        width: 30rem;
 
     }
 
@@ -307,7 +306,7 @@ footer {
     }
     
     .container{
-        width: 26rem;
+        width: 33rem;
     }
 
     .contact {
