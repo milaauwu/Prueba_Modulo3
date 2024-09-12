@@ -282,6 +282,11 @@ footer {
 }
 
 @media (max-width: 576px) {
+    
+     .navbar {
+        padding: 0;
+        width: 35rem;
+      }
 
     .navabr2 {
         width: 24rem;
